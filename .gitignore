@@ -1,0 +1,36 @@
+# --- Node/React (frontend) ---
+node_modules/
+.pnp
+.pnp.js
+coverage/
+build/
+.DS_Store
+.env*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Gradle/Kotlin/Java (backend) ---
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+out/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+.idea/
+*.log
+
+# --- OS/Editor files ---
+*.swp
+*~
+*.tmp
+Thumbs.db
+
+# --- Docker ---
+*.pid
+
+# --- Misc ---
+.cursor/ 
